@@ -133,57 +133,106 @@
 
     <!-- Services Section -->
     <section id="services">
+        <!-- Floating decoration particles -->
+        <div class="service-particle p1"></div>
+        <div class="service-particle p2"></div>
+        <div class="service-particle p3"></div>
+        <div class="service-particle p4"></div>
+
         <div class="container">
-            <h2 class="section-title">What I Do</h2>
-            <div class="services-grid">
-                <!-- Service 1 -->
-                <div class="service-card decorative-top-left">
-                    <div class="service-content">
-                        <h3>Web Development</h3>
-                        <p>Building clean, efficient, and functional websites using modern HTML, CSS, and JavaScript technologies.</p>
-                        
+            <div class="services-header">
+                <span class="services-badge">What I Offer</span>
+                <h2 class="section-title">My <span class="highlight">Services</span></h2>
+                <p class="services-subtitle">Transforming ideas into exceptional digital experiences</p>
+            </div>
+
+            <div class="services-carousel">
+                <button class="service-nav service-prev" aria-label="Previous service">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+
+                <div class="services-viewport">
+                    <div class="services-track">
+                        <!-- Service 1 -->
+                        <div class="service-card">
+                            <div class="service-number">01</div>
+                            <div class="service-icon-wrapper">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="service-content">
+                                <h3>Web Development</h3>
+                                <p>Building clean, efficient, and functional websites using modern HTML, CSS, and JavaScript technologies with best practices.</p>
+                                <a href="javascript:void(0)" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <!-- Service 2 -->
+                        <div class="service-card">
+                            <div class="service-number">02</div>
+                            <div class="service-icon-wrapper">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <div class="service-content">
+                                <h3>Responsive Design</h3>
+                                <p>Creating layouts that look stunning on all devices, from mobile phones to desktop computers with pixel-perfect precision.</p>
+                                <a href="javascript:void(0)" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <!-- Service 3 -->
+                        <div class="service-card">
+                            <div class="service-number">03</div>
+                            <div class="service-icon-wrapper">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <div class="service-content">
+                                <h3>Problem Solving</h3>
+                                <p>Debugging code and finding elegant solutions to technical challenges to ensure smooth and efficient user experiences.</p>
+                                <a href="javascript:void(0)" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <!-- Service 4 -->
+                        <div class="service-card">
+                            <div class="service-number">04</div>
+                            <div class="service-icon-wrapper">
+                                <i class="fas fa-chart-bar"></i>
+                            </div>
+                            <div class="service-content">
+                                <h3>Data Analysis</h3>
+                                <p>Analyzing and interpreting complex data to provide actionable insights and drive data-informed business decisions.</p>
+                                <a href="javascript:void(0)" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <!-- Service 5 -->
+                        <div class="service-card">
+                            <div class="service-number">05</div>
+                            <div class="service-icon-wrapper">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <div class="service-content">
+                                <h3>System Testing</h3>
+                                <p>Implementing comprehensive testing strategies to ensure software reliability, security, and optimal performance.</p>
+                                <a href="javascript:void(0)" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <!-- Service 6 -->
+                        <div class="service-card">
+                            <div class="service-number">06</div>
+                            <div class="service-icon-wrapper">
+                                <i class="fas fa-server"></i>
+                            </div>
+                            <div class="service-content">
+                                <h3>Hosting System</h3>
+                                <p>Managing and deploying web applications on hosting platforms with 99.9% uptime, security, and scalability.</p>
+                                <a href="javascript:void(0)" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <!-- Service 2 -->
-                <div class="service-card">
-                    <div class="service-content">
-                        <h3>Responsive Design</h3>
-                        <p>Creating layouts that look great on all devices, from mobile phones to desktop computers.</p>
-                       
-                    </div>
-                </div>
-                <!-- Service 3 -->
-                <div class="service-card">
-                    <div class="service-content">
-                        <h3>Problem Solving</h3>
-                        <p>Debugging code and finding solutions to technical challenges to ensure smooth user experiences.</p>
-                        
-                    </div>
-                </div>
-                <!-- Service 4 -->
-                <div class="service-card">
-                    <div class="service-content">
-                        <h3>Data Analysis</h3>
-                        <p>Analyzing and interpreting complex data to provide actionable insights and data-driven decisions.</p>
-                        
-                    </div>
-                </div>
-                <!-- Service 5 -->
-                <div class="service-card">
-                    <div class="service-content">
-                        <h3>System Testing</h3>
-                        <p>Implementing comprehensive testing strategies to ensure software reliability, security, and performance.</p>
-                        
-                    </div>
-                </div>
-                <!-- Service 6 -->
-                <div class="service-card decorative-bottom-right">
-                    <div class="service-content">
-                        <h3>Hosting System</h3>
-                        <p>Managing and deploying web applications on hosting platforms with 99.9% uptime and security.</p>
-                        <!--  -->
-                    </div>
-                </div>
+
+                <button class="service-nav service-next" aria-label="Next service">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+
+                <div class="service-dots"></div>
             </div>
         </div>
     </section>
@@ -286,111 +335,168 @@
             <div class="section-header">
                 <h2 class="recent-title">Recent <span>Projects</span></h2>
             </div>
-            <div class="projects-grid">
-                
-                <!-- Project 1 -->
-                <div class="project-card">
-                    <div class="project-icon"><img src="./img/image-project/P1.png" alt="PNC Student Star System"></div>
-                    <div class="project-meta">April 2, 2026 - VC1 Project</div>
-                    <h3 class="project-title">PNC Student Star System</h3>
-                    <p class="project-desc">Full-stack team project. Developed front-end & back-end, system architecture, and deployment on AWS.</p>
-                    <div class="project-tags">
-                        <span>Node.js</span>
-                        <span>React.js</span>
-                        <span>MySQL</span>
-                        <span>Redis</span>
-                        <span>AWS</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="http://frontend.lengsokkhoeurn.org/"><i class="fas fa-earth-americas"></i> project_Link </a>
+            
+            <div class="projects-carousel">
+                <button class="project-nav project-prev" aria-label="Previous project">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+
+                <div class="projects-viewport">
+                    <div class="projects-track">
+                        
+                        <!-- Project 1 -->
+                        <div class="project-card">
+                            <div class="project-icon">
+                                <div class="slideshow">
+                                    <div class="slide active"><img src="./img/image-project/P1.png" alt="PNC Student Star System - Dashboard"></div>
+                                    <div class="slide"><img src="./img/image-project/P1.png" alt="PNC Student Star System - Features" style="object-position: center 30%"></div>
+                                    <div class="slide"><img src="./img/image-project/P1.png" alt="PNC Student Star System - Data" style="object-position: center 65%"></div>
+                                </div>
+                                <span class="slide-counter"><span class="current">1</span>/3</span>
+                            </div>
+                            <div class="project-meta">April 2, 2026 - VC1 Project</div>
+                            <h3 class="project-title">PNC Student Star System</h3>
+                            <p class="project-desc">Full-stack team project. Developed front-end & back-end, system architecture, and deployment on AWS.</p>
+                            <div class="project-tags">
+                                <span>Node.js</span>
+                                <span>React.js</span>
+                                <span>MySQL</span>
+                                <span>Redis</span>
+                                <span>AWS</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="http://frontend.lengsokkhoeurn.org/"><i class="fas fa-earth-americas"></i> project_Link </a>
+                            </div>
+                        </div>
+
+                        <!-- Project 2 -->
+                        <div class="project-card active">
+                            <div class="project-icon">
+                                <div class="slideshow">
+                                    <div class="slide active"><img src="./img/image-project/P2.png" alt="Expense Tracker System - Overview"></div>
+                                    <div class="slide"><img src="./img/image-project/P2.png" alt="Expense Tracker System - Charts" style="object-position: center 35%"></div>
+                                    <div class="slide"><img src="./img/image-project/P2.png" alt="Expense Tracker System - History" style="object-position: center 70%"></div>
+                                </div>
+                                <span class="slide-counter"><span class="current">1</span>/3</span>
+                            </div>
+                            <div class="project-meta">January 8, 2026 - JavaScript Project</div>
+                            <h3 class="project-title">Expense Tracker System</h3>
+                            <p class="project-desc">Team project for tracking expenses. Used GitHub for collaboration and deployed via Vercel.</p>
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>Vercel</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://expense-tracker-system27.vercel.app/"><i class="fas fa-earth-americas"></i> project_Link </a>
+                            </div>
+                        </div>
+
+                        <!-- Project 3 -->
+                        <div class="project-card">
+                            <div class="project-icon">
+                                <div class="slideshow">
+                                    <div class="slide active"><img src="./img/image-project/P3.png" alt="Movie Management System - Browse"></div>
+                                    <div class="slide"><img src="./img/image-project/P3.png" alt="Movie Management System - Details" style="object-position: center 40%"></div>
+                                    <div class="slide"><img src="./img/image-project/P3.png" alt="Movie Management System - Admin" style="object-position: center 75%"></div>
+                                </div>
+                                <span class="slide-counter"><span class="current">1</span>/3</span>
+                            </div>
+                            <div class="project-meta">October 28, 2025 - Algorithm Project</div>
+                            <h3 class="project-title">Movie Management System</h3>
+                            <p class="project-desc">Solo full-stack project. Managed the full project including GitHub, time, and tasks independently.</p>
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>Django</span>
+                                <span>Vercel</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/sokkhoeurn-Leng/Skhoeurn_Movie_Management_System.git"><i class="fab fa-github"></i> GitHub Repo</a>
+                            </div>
+                        </div>
+
+                        <!-- Project 4 -->
+                        <div class="project-card">
+                            <div class="project-icon">
+                                <div class="slideshow">
+                                    <div class="slide active"><img src="./img/image-project/P4.png" alt="Portfolio Website - Hero"></div>
+                                    <div class="slide"><img src="./img/image-project/P4.png" alt="Portfolio Website - Projects" style="object-position: center 30%"></div>
+                                    <div class="slide"><img src="./img/image-project/P4.png" alt="Portfolio Website - Skills" style="object-position: center 60%"></div>
+                                </div>
+                                <span class="slide-counter"><span class="current">1</span>/3</span>
+                            </div>
+                            <div class="project-meta">2025 - 2026 - Personal Project</div>
+                            <h3 class="project-title">Portfolio Website</h3>
+                            <p class="project-desc">Personal portfolio built and continuously improved. Deployed on Vercel.</p>
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>Vercel</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://sokkhoeurn-profile2.vercel.app/"><i class="fas fa-earth-americas"></i> project_Link</a>
+                            </div>
+                        </div>
+
+                        <!-- Project 5 -->
+                        <div class="project-card">
+                            <div class="project-icon">
+                                <div class="slideshow">
+                                    <div class="slide active"><img src="./img/image-project/P5.png" alt="Deployment - AWS Console"></div>
+                                    <div class="slide"><img src="./img/image-project/P5.png" alt="Deployment - Nginx Config" style="object-position: center 35%"></div>
+                                    <div class="slide"><img src="./img/image-project/P5.png" alt="Deployment - Live Site" style="object-position: center 70%"></div>
+                                </div>
+                                <span class="slide-counter"><span class="current">1</span>/3</span>
+                            </div>
+                            <div class="project-meta">2026 - Deployment</div>
+                            <h3 class="project-title">Deploy WordPress, Laravel, Node & Nginx</h3>
+                            <p class="project-desc">Solo deployment project. Purchased domain from GoDaddy. Wrote full deployment documentation.</p>
+                            <div class="project-tags">
+                                <span>AWS</span>
+                                <span>MobaXterm</span>
+                                <span>Nginx</span>
+                                <span>GoDaddy</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#"><i class="fas fa-lock-open"></i> Private Project</a>
+                            </div>
+                        </div>
+
+                        <!-- Project 6 -->
+                        <div class="project-card">
+                            <div class="project-icon">
+                                <div class="slideshow">
+                                    <div class="slide active"><img src="./img/image-project/P6.png" alt="Cake Store - Home"></div>
+                                    <div class="slide"><img src="./img/image-project/P6.png" alt="Cake Store - Products" style="object-position: center 40%"></div>
+                                    <div class="slide"><img src="./img/image-project/P6.png" alt="Cake Store - Gallery" style="object-position: center 75%"></div>
+                                </div>
+                                <span class="slide-counter"><span class="current">1</span>/3</span>
+                            </div>
+                            <div class="project-meta">Personal Project</div>
+                            <h3 class="project-title">Cake_store Website</h3>
+                            <p class="project-desc">Interactive Cambodian Cake_store built with HTML5, CSS and JavaScript.</p>
+                            <div class="project-tags">
+                                <span>HTML5 </span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://sokkhoeurn-cake-store.vercel.app/"><i class="fas fa-eye"></i> View Project</a>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
 
-                <!-- Project 2 -->
-                <div class="project-card active">
-                    <div class="project-icon"><img src="./img/image-project/P2.png" alt="Expense Tracker System"></div>
-                    <div class="project-meta">January 8, 2026 - JavaScript Project</div>
-                    <h3 class="project-title">Expense Tracker System</h3>
-                    <p class="project-desc">Team project for tracking expenses. Used GitHub for collaboration and deployed via Vercel.</p>
-                    <div class="project-tags">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>JavaScript</span>
-                        <span>Vercel</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://expense-tracker-system27.vercel.app/"><i class="fas fa-earth-americas"></i> project_Link </a>
-                    </div>
-                </div>
+                <button class="project-nav project-next" aria-label="Next project">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
 
-                <!-- Project 3 -->
-                <div class="project-card">
-                    <div class="project-icon"><img src="./img/image-project/P3.png" alt="Movie Management System"></div>
-                    <div class="project-meta">October 28, 2025 - Algorithm Project</div>
-                    <h3 class="project-title">Movie Management System</h3>
-                    <p class="project-desc">Solo full-stack project. Managed the full project including GitHub, time, and tasks independently.</p>
-                    <div class="project-tags">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>JavaScript</span>
-                        <span>Django</span>
-                        <span>Vercel</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://github.com/sokkhoeurn-Leng/Skhoeurn_Movie_Management_System.git"><i class="fab fa-github"></i> GitHub Repo</a>
-                    </div>
-                </div>
-
-                <!-- Project 4 -->
-                <div class="project-card">
-                    <div class="project-icon"><img src="./img/image-project/P4.png" alt="Portfolio Website"></div>
-                    <div class="project-meta">2025 - 2026 - Personal Project</div>
-                    <h3 class="project-title">Portfolio Website</h3>
-                    <p class="project-desc">Personal portfolio built and continuously improved. Deployed on Vercel.</p>
-                    <div class="project-tags">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>JavaScript</span>
-                        <span>Vercel</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://sokkhoeurn-profile2.vercel.app/"><i class="fas fa-earth-americas"></i> project_Link</a>
-                    </div>
-                </div>
-
-                <!-- Project 5 -->
-                <div class="project-card">
-                    <div class="project-icon"><img src="./img/image-project/P5.png" alt="Deploy WordPress, Laravel, Node & Nginx"></div>
-                    <div class="project-meta">2026 - Deployment</div>
-                    <h3 class="project-title">Deploy WordPress, Laravel, Node & Nginx</h3>
-                    <p class="project-desc">Solo deployment project. Purchased domain from GoDaddy. Wrote full deployment documentation.</p>
-                    <div class="project-tags">
-                        <span>AWS</span>
-                        <span>MobaXterm</span>
-                        <span>Nginx</span>
-                        <span>GoDaddy</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="#"><i class="fas fa-lock-open"></i> Private Project</a>
-                    </div>
-                </div>
-
-                <!-- Project 6 -->
-                <div class="project-card">
-                    <div class="project-icon"><img src="./img/image-project/P6.png" alt="Cake_store Website"></div>
-                    <div class="project-meta">Personal Project</div>
-                    <h3 class="project-title">Cake_store Website</h3>
-                    <p class="project-desc">Interactive Cambodian Cake_store built with HTML5, CSS and JavaScript.</p>
-                    <div class="project-tags">
-                        <span>HTML5 </span>
-                        <span>CSS3</span>
-                        <span>JavaScript</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://sokkhoeurn-cake-store.vercel.app/"><i class="fas fa-eye"></i> View Project</a>
-                    </div>
-                </div>
-
+                <div class="project-dots"></div>
             </div>
         </div>
     </section>
@@ -405,7 +511,7 @@
             
             <div class="contact-wrapper">
                 <div class="contact-image">
-                    <img src="./img/profile.png" alt="Contact Illustration">
+                    <img src="./img/new.png" alt="Contact Illustration">
                 </div>
 
                 <div class="contact-form-card">
